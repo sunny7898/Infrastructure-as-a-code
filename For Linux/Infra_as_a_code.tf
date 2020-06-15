@@ -251,7 +251,8 @@ depends_on = [
 	/*
 	provisioner "local-exec" {
 	    command = "nohup firefox & http://${aws_instance.Proj1_EC2.public_ip}/"
-	*/
+
   	}
+		*/
 }
 
