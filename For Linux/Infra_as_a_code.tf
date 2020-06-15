@@ -132,7 +132,7 @@ resource "aws_s3_bucket_object" "home_folder" {
 	]
 	bucket  = aws_s3_bucket.bucket1.bucket
 	key     = "sobj.png"
-	source = "/Project_aws/Images/image.jpg"
+	source = "/Project_aws/For Linux/Images/image.jpg"
 	acl    = "public-read"
 }
 
