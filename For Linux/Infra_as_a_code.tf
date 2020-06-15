@@ -248,9 +248,10 @@ resource "null_resource" "openwebsite"  {
 depends_on = [
     aws_cloudfront_distribution.s3_distribution, aws_volume_attachment.Proj1_EBS_att
   ]
+	/*
 	provisioner "local-exec" {
 	    command = "nohup firefox & http://${aws_instance.Proj1_EC2.public_ip}/"
-
+	*/
   	}
 }
 
