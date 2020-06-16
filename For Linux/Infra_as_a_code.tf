@@ -1,3 +1,11 @@
+// Setting up the The project directory for terraform
+terraform {
+  backend "local" {
+    path = "/Project_aws/terraform.tfstate"
+  }
+}
+
+
 //----------------------------------- Provider------------------------------------------
 provider "aws" {
 	region = "ap-south-1"
